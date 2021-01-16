@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "devStart": "nodemon server.js"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +12,7 @@
     "url": "git+https://github.com/Nalisa8/Url_shortster.git"
   },
   "keywords": [
-    "20Autostima20"
+    
   ],
   "author": "Natacha Galbano",
   "license": "ISC",
@@ -20,6 +21,12 @@
   },
   "homepage": "https://github.com/Nalisa8/Url_shortster#readme",
   "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.12",
     "npm": "^6.14.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
