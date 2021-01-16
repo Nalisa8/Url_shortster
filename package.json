@@ -1,0 +1,25 @@
+{
+  "name": "url_shortster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nalisa8/Url_shortster.git"
+  },
+  "keywords": [
+    "20Autostima20"
+  ],
+  "author": "Natacha Galbano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nalisa8/Url_shortster/issues"
+  },
+  "homepage": "https://github.com/Nalisa8/Url_shortster#readme",
+  "dependencies": {
+    "npm": "^6.14.11"
+  }
+}
