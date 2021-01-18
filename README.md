@@ -4,7 +4,7 @@ an URL shortening service, so that users may have custom URLs to their long URLs
 
 ## Screenshots
 
-![alt text](/Screenshot 2021-01-18 at 16.09.56.png "Url Shortster page")
+![](ScreenshotWebsite.png)
 ## Tech/framework used
 
 <b>Built with</b>
