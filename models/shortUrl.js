@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const shortId = reuquire ('shortid')
+const shortId = require ('shortid')
 
 
 const shortUrlSchema = new mongoose.Schema({
@@ -39,4 +39,4 @@ const shortUrlSchema = new mongoose.Schema({
     }
 })
 
-module.exports = mongoose.model('ShortUrl', shortUrlschema)
+module.exports = mongoose.model('ShortUrl', shortUrlSchema)
