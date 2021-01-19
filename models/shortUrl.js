@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const shortId = require ('shortid')
-
+const moment = require('moment')
 
 const shortUrlSchema = new mongoose.Schema({
     full:{
@@ -26,7 +26,7 @@ const shortUrlSchema = new mongoose.Schema({
         type: String,
         require: true,
         format: "date-time",
-        default:""
+        default: moment().startOf('hour').fromNow()
 
     },
     date:{
@@ -34,7 +34,7 @@ const shortUrlSchema = new mongoose.Schema({
         type: String,
         require: true,
         format: "date-time",
-        default:""
+        default: moment().format("MMM Do YY")
 
     }
 })
